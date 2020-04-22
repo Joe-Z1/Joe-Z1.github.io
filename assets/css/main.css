@@ -660,9 +660,9 @@ input, select, textarea {
 
     #text{
     text-align: center;
-        font-size: 1.1em;
+        font-size: 1.5em;
         font-weight: 600;
-        -webkit-text-stroke: 2.5px black;
+        -webkit-text-stroke: 3px black;
         width: 300;
         
     }
