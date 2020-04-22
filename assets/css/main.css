@@ -76,6 +76,7 @@ input, select, textarea {
 
 	html {
 		box-sizing: border-box;
+        
 	}
 
 	*, *:before, *:after {
@@ -84,7 +85,7 @@ input, select, textarea {
 
 	body {
 		background: #fff;
-		overflow: hidden;
+		
         
 	}
 
@@ -343,6 +344,8 @@ input, select, textarea {
 		text-align: center;
 		top: 0;
 		width: 100%;
+        overflow: auto;
+        
 	}
 
 		#main:before {
@@ -350,8 +353,9 @@ input, select, textarea {
 			display: inline-block;
 			height: 100%;
 			margin-right: 0;
-			vertical-align: middle;
+			vertical-align: top;
 			width: 1px;
+            
 		}
 
 /* Header */
@@ -518,7 +522,7 @@ input, select, textarea {
 		opacity: 0;
 		position: relative;
 		text-align: center;
-		top: -2em;
+		top: 0;
 		vertical-align: middle;
 		width: 90%;
 	}
@@ -641,6 +645,58 @@ input, select, textarea {
 				#header nav a span {
 					display: none;
 				}
+
+
+    #container {
+        width: 100%;
+        position: absolute;
+        
+        
+        
+    }
+#Project1{
+    width:100%
+}
+
+    #text{
+    text-align: center;
+        font-size: 1.1em;
+        font-weight: 600;
+        -webkit-text-stroke: 2.5px black;
+        width: 300;
+        
+    }
+
+#pic{
+    position: relative;
+   height: 300px;
+    width: 300px;
+    bottom: -4em;
+    top: -4em;
+    right: -10em;
+    
+}
+
+#pic2{
+    position: relative;
+   height: 300px;
+    width: 300px;
+    bottom: -4em;
+    top: -14.2em;
+    right:-27em;
+
+}
+
+#pic3{
+    position: relative;
+   height: 300px;
+    width: 300px;
+    bottom: -4em;
+    top: -24.3em;
+    right:-43em;
+
+}
+
 /* Wide */
 
 	@media screen and (max-width: 1680px) {
@@ -911,7 +967,7 @@ input, select, textarea {
 
 			#header nav a:active {
 				font-size: 1em;
-			} }
+			} 
 
 /* Mobile (Portrait) */
 
