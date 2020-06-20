@@ -335,6 +335,9 @@ a:hover {
   top: 0;
   width: 100%;
   overflow: auto;
+background-color: slategray;
+    opacity: 93%;
+    
 }
 
 #main:before {
